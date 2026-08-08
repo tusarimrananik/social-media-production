@@ -1,13 +1,1 @@
-{
-  "buildCommand": "npm run vercel-build",
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/index.js"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+{\n  \"rewrites\": [\n    {\n      \"source\": \"/api/(.*)\",\n      \"destination\": \"/api/index.ts\"\n    },\n    {\n      \"source\": \"/(.*)\",\n      \"destination\": \"/index.html\"\n    }\n  ]\n}\n
